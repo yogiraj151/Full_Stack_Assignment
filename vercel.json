@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Take-Home-Assignment-The-Untested-API-main/task-api/src/app.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Take-Home-Assignment-The-Untested-API-main/task-api/src/app.js"
+    }
+  ]
+}
